@@ -31,24 +31,146 @@ h1{
   text-align: Center;
 }
 .flex2{
+  margin-top: 1.5rem;
   display: flex;
-  justify-content: space-around;
+  gap: 4rem;
+  
+  
 }
 .img2{
   width: 14rem;
   height: 14rem;
+  margin-left: 35rem;
 }
 .d{
   font-size: 20px;
 }
 .habilidades{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  
+  
+}
+.habilidadesa{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
 }
 .espaco{
+  display: flex;
   margin-top: 15px;
+  justify-content: space-around;
+  font-size: 1.3rem;
 }
 .projetos{
   margin-top: 20px;
   text-align: Center;
 }
+.projeto{
+  margin-top:2rem ;
+  display: flex;
+  justify-content: space-around;
+}
+.pa{
+
+  width: 18rem;
+  height: 18rem;
+  object-fit: cover;
+ 
+}
+.projetoss{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  margin-right :2rem;
+}
+.d{
+  
+}
+.container {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+input, textarea {
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 5px;
+  outline: none;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+hr{
+  background: black;
+}
+h2{
+  margin-top: 2rem;
+  display: flex;
+  align-items: Center;
+  justify-content: Center;
+  font-size: 2rem;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+footer h2 {
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+}
+
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.box {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 28px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.youtube:hover { background: #ff0000; }
+.instagram:hover { background: #c13584; }
+.whatsapp:hover { background: #25d366; }
+.github:hover { background: #000; }
