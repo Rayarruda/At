@@ -5,7 +5,7 @@ function enviar() {
   let texto = document.getElementById("texto").value;
 
   if (nome && email && assunto && texto) {
-    alert("Enviado com sucesso!");
+    alert("Enviado!\n" + nome + "\n" + email + "\n" + assunto + "\n" + texto);
   } else {
     alert("Preencha todos os campos!");
   }
