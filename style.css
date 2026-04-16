@@ -166,12 +166,3 @@ footer h2 {
   transition: 0.3s;
 }
 
-.box:hover {
-  transform: scale(1.1);
-  color: #fff;
-}
-
-.youtube:hover { background: #ff0000; }
-.instagram:hover { background: #c13584; }
-.whatsapp:hover { background: #25d366; }
-.github:hover { background: #000; }
